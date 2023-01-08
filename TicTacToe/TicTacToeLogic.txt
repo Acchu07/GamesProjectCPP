@@ -1,0 +1,55 @@
+Logic for Game
+
+/*
+Need 3 Arrays or one 2D array 
+Swap input between player 1 and player 2 - Lock Player 1 input to x and player 2 input to o
+Check if location of placed input == 0 if yes let player place an x or a O if no ask player to choose a different location
+Check if board is full if full check for horizonatal diagonal and vertical x or o 
+After third turn of  player 1 turn keep checking board for horizonatal diagonal and vertical x or o 
+*/
+
+/*
+do{
+    playgame()
+}while(Playagain())
+
+Playgame()
+    create an array 3 * 3
+    Assign Player 1 = 1 and Player 2 = 2
+    variable for player input // figure out input
+    counter for player turns
+    draw table for visual representation 
+    do
+    {
+        player1turn()
+        if(counter > 5) start checking for winner
+        player2turn()
+        if(counter > 6) start checking for winner
+        if(counter == 9) break;
+    }while(till someone wins)
+
+playagain(){
+    if y return true else return false
+}
+
+playerturn()
+{
+    player choose one location from table
+    while(locationisinvalid()){
+        prompt to re enter new location
+    }
+    drawtable()
+}
+
+locationisInvalid(){
+    return true if invalid
+}
+
+drawtable(){
+    system clear and draw table
+}
+
+WinnerCheck(){
+    lastreceived player input = check drawn table and code in respect with it
+}
+*/

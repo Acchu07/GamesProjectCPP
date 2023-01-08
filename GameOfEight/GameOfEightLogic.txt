@@ -1,0 +1,52 @@
+Logic for game and issues faced
+
+// The game of 8 is played by 2 players. The game starts with the initial number 8 (from here on refered to as the initial number). 
+// The first player will choose a number from 1 to 3 (from here on refered to as the chosen number).
+// If the player inputs something outside of the 1 to 3 range it should be an error and the player must choose again. 
+// The initial number is subtracted by the chosen number. Then the next player's turn happens.
+//  The next player cannot choose the number that the last player chose. If the initial number goes to 0 on your turn, then you win.
+//  Otherwise if the number goes below 0, your opponent wins. 
+//  The player should always see what choices are available to him when prompted to enter his choice. After the game is over, the user should be prompted whether they want to play again.
+//  Write a program to solve this problem.
+
+// Variable to store 8 and reductions from 8 will be stored in the same variable will be reintialized should player choose to play again
+// Variable for number choice ask user to keep re inputting if range > 3 and < 1 
+// Need to alternate between player 1 and player 2 and variable to store Player 1 and player 2 names?
+// Display number choices available to the player
+// Loop to check if they want to play again
+
+// Pseudo Code
+/*do{
+    play game
+}while(want to play again)
+
+play game(){
+    set int variable name to 8
+    Set Player 1 and Player 2 using string;
+    Variable to prevent next player from choosing what was last chosen
+
+    do{
+        Choice statement
+        Player 1 turn choose a number between 1 and 3 // make a function and include choice statement
+            Variable for number choice ask user to keep re inputting if range > 3 and < 1 
+            store number within prevention variable and substract from 8
+            check if variable name == 0 and if less than 0 - break and cout respectively 
+        player 2 turn to choose a number // make a function and include choice statement pass value for prevention
+        check if variable name == 0 and if less than 0 - break and cout respectively 
+
+
+            
+
+    }while(till someone wins)
+}
+Functions
+Play game function
+Player Turn function ()
+Play Again function
+
+
+
+// one of the issues while trying to come up with pseudo code is i constantly think of the code in the back of my mind
+// two is i have seen the solution to number guesser so by default i know of two loops one is for play and other is how long to keep playing
+// another issue is while i had solved the problem i was thinking of other ways while coding as a result my initial idea was modified basically where the switch came in and where the series of steps was
+// Having issues figuring out condition to be true or false*/
